@@ -1,8 +1,11 @@
 package com.ak.nobetcieczane.util
 
+import com.hasan.nobetcieczanem.BuildConfig
+
 object Constans {
 
-    const val BASE_URL = "https://api.collectapi.com/"
-    const val API_KEY = "apikey 0sJQ6oqstJosxcsoB878xs:3DxoSzxw05kgmpCIiOACQA"
+    const val BASE_URL = BuildConfig.BASE_URL
+    const val API_KEY = BuildConfig.API_KEY
+
 
 }
